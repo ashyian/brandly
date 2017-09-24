@@ -1,0 +1,30 @@
+.subtitle {
+  display: inline-block;
+  position: relative;
+  width: 330px;
+  padding: 39px 0;
+  font: italic 300 40px/19px "Open Sans", "Tahoma", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  color: #333;
+
+  margin-bottom: 60px;
+}
+
+.subtitle::before,
+.subtitle::after {
+  content: "";
+  position: absolute;
+  left: 110px;
+  width: 110px;
+  height: 3px;
+  background-color: #dc0000;
+}
+
+.subtitle::before {
+  top: 0;
+}
+
+.subtitle::after {
+  bottom: 0;
+}

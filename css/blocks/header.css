@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 255px;
+  padding-top: 34px;
+}
+
+.header__title {
+  color: #cb1c1d;
+  font: 500 48px/19px "Bebas Neue", "Tahoma", sans-serif;
+  text-transform: uppercase;
+  z-index: 5;
+}
+
+.header__title-ly {
+  font-weight: 400;
+  font-size: 36px;
+}

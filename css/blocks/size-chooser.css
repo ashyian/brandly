@@ -1,0 +1,17 @@
+.size-chooser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 370px;
+  list-style: none;
+}
+
+.size-chooser__radiobtn {
+  display: none;
+}
+
+.size-chooser__caption {
+  font: 700 16px "Open Sans", "Tahoma", sans-serif;
+  color: #777;
+}
+

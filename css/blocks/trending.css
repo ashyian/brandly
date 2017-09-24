@@ -1,0 +1,72 @@
+.trending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 59px;
+  padding-bottom: 128px;
+  background: url("../../img/trending-bg.jpg");
+}
+
+.trending__list {
+  width: 1170px;
+}
+
+.trending__item {
+  display: flex;
+}
+
+.trending__content {
+  padding-top: 24px;
+  padding-left: 30px;
+}
+
+.trending__title {
+  margin-bottom: 21px;
+  font: 700 30px/30px "Lato", "Tahoma", sans-serif;
+  text-transform: uppercase;
+  color: #dc0000;
+}
+
+.trending__subtitle, .trending__description, .trending__tip {
+  font: 400 18px/25px "Lato", "Tahoma", sans-serif;
+  color: #777;
+}
+
+.trending__subtitle {
+  position: relative;
+  margin-bottom: 47px;
+  font: 400 18px/25px "Open Sans", "Tahoma", sans-serif;
+  letter-spacing: 1.9px;
+}
+
+.trending__subtitle::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  left: 2px;
+  top: 49px;
+  background-color: #000;
+}
+
+.trending__description {
+  margin-bottom: 25px;
+  letter-spacing: 1.6px;
+}
+
+.trending__tip-title {
+  text-transform: uppercase;
+}
+
+.trending__tip {
+  letter-spacing: 1.4px;
+  margin-bottom: 87px;
+}
+
+.trending__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 370px;
+}

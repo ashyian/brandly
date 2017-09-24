@@ -1,0 +1,69 @@
+/* BEBAS NEUE */
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../../fonts/bebas-neue/bebasneue-book.woff2") format("woff2"),
+       url("../../fonts/bebas-neue/bebasneue-book.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../../fonts/bebas-neue/bebasneue-regular.woff2") format("woff2"),
+       url("../../fonts/bebas-neue/bebasneue-regular.woff") format("woff");
+  font-weight: 500;
+}
+
+/* LATO */
+
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/lato/lato-regular.woff2") format("woff2"),
+       url("../../fonts/lato/lato-regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/lato/lato-bold.woff2") format("woff2"),
+       url("../../fonts/lato/lato-bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/lato/lato-black.woff2") format("woff2"),
+       url("../../fonts/lato/lato-black.woff") format("woff");
+  font-weight: 900;
+}
+
+/* OPEN SANS */
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../fonts/open-sans/opensans-light.woff2") format("woff2"),
+       url("../../fonts/open-sans/opensans-light.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../fonts/open-sans/opensans-lightitalic.woff2") format("woff2"),
+       url("../../fonts/open-sans/opensans-lightitalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../fonts/open-sans/opensans-regular.woff2") format("woff2"),
+       url("../../fonts/open-sans/opensans-regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../fonts/open-sans/opensans-bold.woff2") format("woff2"),
+       url("../../fonts/open-sans/opensans-bold.woff") format("woff");
+  font-weight: 700;
+}

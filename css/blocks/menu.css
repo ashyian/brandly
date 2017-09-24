@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  min-width: 680px;
+  list-style: none;
+  z-index: 5;
+}
+
+.menu__link {
+  padding-bottom: 3px;
+  font: 400 18px/19px "Open Sans", "Tahoma", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+  transition: border 120ms linear;
+}
+
+.menu__link:hover {
+  border-color: #fff;
+}

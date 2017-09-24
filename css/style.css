@@ -1,0 +1,19 @@
+/* GLOBAL */
+@import url("general/fonts.css");
+@import url("general/overall.css");
+@import url("general/normalize.css");
+
+/* BLOCKS */
+@import url("blocks/header.css");
+@import url("blocks/menu.css");
+@import url("blocks/slider.css");
+@import url("blocks/btn.css");
+@import url("blocks/subtitle.css");
+@import url("blocks/latest.css");
+@import url("blocks/trending.css");
+@import url("blocks/size-chooser.css");
+@import url("blocks/blog.css");
+@import url("blocks/post.css");
+@import url("blocks/subscribe.css");
+@import url("blocks/pagination.css");
+@import url("blocks/footer.css");

@@ -1,0 +1,84 @@
+.btn {
+  display: block;
+  width: 195px;
+  padding: 18px 0;
+  border: 2px solid #fff;
+  font: 700 16px "Open Sans", "Tahoma", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  transition: all 100ms linear;
+  cursor: pointer;
+}
+
+.slider .btn {
+  font: 900 18px/19px "Lato", "Tahoma", sans-serif;
+}
+
+.trending__buttons .btn,
+.post .btn {
+  color: #333;
+  border: 1px solid #333;
+}
+
+.trending__buttons .btn {
+  width: 68px;
+  padding: 14px 0;
+  margin-bottom: 30px;
+}
+
+.trending__buttons > .btn {
+  width: 168px;
+}
+
+.blog > .btn {
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 40px;
+  height: 49px;
+  position: absolute;
+  top: 498px;
+  opacity: 0.3;
+}
+
+.blog > .btn--left {
+  background: url("../../img/icons/left-arrow.svg") no-repeat;
+  background-size: cover;
+  left: 118px;
+}
+
+.blog > .btn--right {
+  background: url("../../img/icons/right-arrow.svg") no-repeat;
+  background-size: cover;
+  left: 1513px;
+}
+
+.blog > .btn:hover {
+  opacity: 0.7;
+}
+
+.post .btn {
+  width: 168px;
+  padding: 14px 0;
+}
+
+.trending__buttons .btn:hover,
+.size-chooser__radiobtn:checked + .btn,
+.post .btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.subscribe .btn {
+  appearance: none;
+  width: 270px;
+  padding: 14px 0;
+  border: none;
+  font-size: 18px;
+  color: #000;
+  background-color: #fff;
+  outline: none;
+  z-index: 1;
+}

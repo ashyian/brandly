@@ -1,0 +1,102 @@
+.latest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 59px;
+  margin-bottom: 30px;
+}
+
+.latest__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  padding-left: 30px;
+  min-height: 870px;
+  list-style: none;
+}
+
+.latest__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.latest__item--category {
+  width: 370px;
+  height: 418px;
+}
+
+.latest__item--sales {
+  width: 570px;
+  height: 418px;
+}
+
+.latest__item:nth-child(1) { background: url("../../img/category-men.jpg"); }
+.latest__item:nth-child(2) { background: url("../../img/category-woman.jpg"); }
+.latest__item:nth-child(3) { background: url("../../img/category-watches.jpg"); }
+.latest__item:nth-child(4) { background: url("../../img/sale-autumn-collection.jpg"); }
+.latest__item:nth-child(5) { background: url("../../img/sale-spirit-collection.jpg"); }
+
+.latest__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(34,37,51,.7);
+  text-decoration: none;
+  transition: background 200ms linear;
+}
+
+.latest__name:hover {
+  background-color: rgba(34,37,51,.4);
+}
+
+.latest__name--category {
+  font: italic 300 40px/19px "Open Sans", "Tahoma", sans-serif;
+}
+
+.latest__name--category::after {
+  content: "";
+  position: absolute;
+  width: 309px;
+  height: 349px;
+  border: 3px solid #fff;
+  top: 31px;
+  left: 28px;
+}
+
+.latest__name--sales {
+  font: 900 45px/54px "Lato", "Tahoma", sans-serif;
+  text-align: center;
+}
+
+.latest__name--sales::before,
+.latest__name--sales::after {
+  content: "";
+  position: absolute;
+  width: 192px;
+  height: 1px;
+  left: 189px;
+  background-color: #fff;
+}
+
+.latest__name--sales::before {
+  top: 116px;
+}
+
+.latest__name--sales::after {
+  top: 300px;
+}
+
+.latest__name--autumn {
+  text-transform: capitalize;
+}
+
+.latest__name--spirit {
+  text-transform: uppercase;
+}

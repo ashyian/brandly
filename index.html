@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Brandly: Main Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Brand <span class="header__title-ly">ly</span></h1>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Shop</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Brands</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="slider">
+    <ul class="slider__wrapper">
+      <li class="slider__item">
+        <h2 class="slider__title">Spring / summer collection</h2>
+        <b class="slider__offer">Up to 60% discount on new arrivals</b>
+        <p class="slider__description">Trending new items, from creators around the world</p>
+        <a class="btn" href="">Shop now</a>
+      </li>
+      <li class="slider__item">
+        <h2 class="slider__title">Etro Spring collection</h2>
+        <b class="slider__offer">Up to 70% off mens styles</b>
+        <p class="slider__description">Discover the latest Etro collection. Find the best price.</p>
+        <a class="btn" href="">Shop now</a>
+      </li>
+      <li class="slider__item">
+        <h2 class="slider__title">Ethnic Fest collection</h2>
+        <b class="slider__offer">10% domestic visitor savings pass</b>
+        <p class="slider__description">Add grace to your femininity with ethnic wear online!</p>
+        <a class="btn" href="">Shop now</a>
+      </li>
+      <li class="slider__item">
+        <h2 class="slider__title">Explore collection</h2>
+        <b class="slider__offer">20% off $40 or more</b>
+        <p class="slider__description">Denim and adventure wear brand for the urban male.</p>
+        <a class="btn" href="">Shop now</a>
+      </li>
+    </ul>
+    <ul class="pagination pagination--slider">
+      <li class="pagination__item">
+        <input class="pagination__radiobtn pagination__radiobtn--slider" type="radio" id="slide-1" name="slider-page" checked>
+        <label class="pagination__label pagination__label--slider" for="slide-1">1</label>
+      </li>
+      <li class="pagination__item">
+        <input class="pagination__radiobtn pagination__radiobtn--slider" type="radio" id="slide-2" name="slider-page">
+        <label class="pagination__label pagination__label--slider" for="slide-2">2</label>
+      </li>
+      <li class="pagination__item">
+        <input class="pagination__radiobtn pagination__radiobtn--slider" type="radio" id="slide-3" name="slider-page">
+        <label class="pagination__label pagination__label--slider" for="slide-3">3</label>
+      </li>
+      <li class="pagination__item">
+        <input class="pagination__radiobtn pagination__radiobtn--slider" type="radio" id="slide-4" name="slider-page">
+        <label class="pagination__label pagination__label--slider" for="slide-4">4</label>
+      </li>
+    </ul>
+  </section>
+
+  <section class="latest">
+    <h2 class="subtitle">Latest products</h2>
+    <ul class="latest__list">
+      <li class="latest__item latest__item--category"><a class="latest__name latest__name--category" href="#">Men</a></li>
+      <li class="latest__item latest__item--category"><a class="latest__name latest__name--category" href="#">Woman</a></li>
+      <li class="latest__item latest__item--category"><a class="latest__name latest__name--category" href="#">Watches</a></li>
+      <li class="latest__item latest__item--sales"><a class="latest__name latest__name--sales latest__name--autumn" href="#">40% off<br>new Autumn<br>Collection</a></li>
+      <li class="latest__item latest__item--sales"><a class="latest__name latest__name--sales latest__name--spirit" href="#">Mega Sale<br>on items from<br>Spirit Collection</a></li>
+    </ul>
+  </section>
+
+  <section class="trending">
+    <h2 class="subtitle">Trending items</h2>
+    <ul class="trending__list">
+      <li class="trending__item">
+        <a class="trending__link" href="#">
+          <img class="trending__image" src="img/trending-item-3.jpg" width="570" height="570" alt="Nathan Stewart Jacket">
+        </a>
+        <div class="trending__content">
+          <h2 class="trending__title">Nathan Stewart Jacket</h2>
+          <p class="trending__subtitle">Summer/Autumn Collection</p>
+          <p class="trending__description">Classic Nathan Stewart Jacket from his latest collection. This item is loved by many just because on it's simple style. Simple lines, lovely texture, it suits almost everybody.<br>It comes in six different colors, and all sizes.</p>
+          <p class="trending__tip"><span class="trending__tip-title">Fashion tip:</span><br>With this jacket, Nathan Stewart sunglasses go hand in hand!</p>
+          <div class="trending__buttons">
+            <ul class="size-chooser">
+              <li class="size-chooser__item">
+                <input class="size-chooser__radiobtn" type="radio" id="size-m" name="choosed-size">
+                <label class="btn" for="size-m">M</label>
+              </li>
+              <li class="size-chooser__item">
+                <input class="size-chooser__radiobtn" type="radio" id="size-l" name="choosed-size" checked>
+                <label class="btn" for="size-l">L</label>
+              </li>
+              <li class="size-chooser__item">
+                <input class="size-chooser__radiobtn" type="radio" id="size-xl" name="choosed-size">
+                <label class="btn" for="size-xl">XL</label>
+              </li>
+              <li class="size-chooser__item">
+                <input class="size-chooser__radiobtn" type="radio" id="size-xxl" name="choosed-size">
+                <label class="btn" for="size-xxl">XXL</label>
+              </li>
+            </ul>
+            <a class="btn" href="#">Shop now</a>
+            <a class="btn" href="#">Size guide</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="pagination">
+      <li class="pagination__item">
+        <input class="pagination__radiobtn pagination__radiobtn--trending" type="radio" id="trend-1" name="trend-page" checked>
+        <label class="pagination__label pagination__label--trending" for="trend-1">1</label>
+      </li>
+      <li class="pagination__item">
+        <input class="pagination__radiobtn pagination__radiobtn--trending" type="radio" id="trend-2" name="trend-page">
+        <label class="pagination__label pagination__label--trending" for="trend-2">2</label>
+      </li>
+      <li class="pagination__item">
+        <input class="pagination__radiobtn pagination__radiobtn--trending" type="radio" id="trend-3" name="trend-page">
+        <label class="pagination__label pagination__label--trending" for="trend-3">3</label>
+      </li>
+      <li class="pagination__item">
+        <input class="pagination__radiobtn pagination__radiobtn--trending" type="radio" id="trend-4" name="trend-page">
+        <label class="pagination__label pagination__label--trending" for="trend-4">4</label>
+      </li>
+    </ul>
+  </section>
+
+  <section class="blog">
+    <h2 class="subtitle">From the blog</h2>
+    <div class="blog__content">
+      <article class="post">
+        <img class="post__image" src="img/blog-german-fashion.jpg" width="570" height="400" alt="German fashion wizards">
+        <h3 class="post__title">German fashion wizards</h3>
+        <p class="post__author">By James Steed</p>
+        <p class="post__category">Fashion</p>
+        <blockquote class="post__text">This week we had the chance of interviewing tow creative artists from Germany. These guys are simply amazing at what they do with the European fashion scene and this year at Paris Fashion Week they introduced their new collection.</blockquote>
+        <a class="btn" href="#">Read more</a>
+      </article>
+      <article class="post">
+        <img class="post__image" src="img/blog-sunglasses.jpg" width="570" height="400" alt="Anne Stewart's sunglasses">
+        <h3 class="post__title">Anne Stewart's sunglasses</h3>
+        <p class="post__author">By Marry Beard</p>
+        <p class="post__category">Trending</p>
+        <blockquote class="post__text">Just amazing! That is now i can describe this person. So creative, so inspiring, I was watching her create in her small studio in London and I was amazed at how every little detail gets includedin her creations. From frames, to glass thickness she blew me away...</blockquote>
+        <a class="btn" href="#">Read more</a>
+      </article>
+    </div>
+    <button class="btn btn--left"></button>
+    <button class="btn btn--right"></button>
+  </section>
+
+  <section class="subscribe">
+    <div class="subscribe__bg-overlay"></div>
+    <label class="subscribe__invite" for="subscribe-email">Subscribe to our newsletter to receive latest news and offers</label>
+    <input class="subscribe__email" id="subscribe-email" type="text" placeholder="Email address">
+    <input class="btn" type="submit" value="Subscribe">
+  </section>
+
+  <footer class="footer">
+    <p class="footer__copyright">
+      Made with 
+      <img class="footer__heart-icon" src="img/icons/heart.svg" width="20" height="16" alt=""> 
+      by 
+      <a class="footer__link" href="#">WebDonut.net</a>
+    </p>
+  </footer>
+
+  <script src="js/slider.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
